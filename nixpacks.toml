@@ -1,0 +1,15 @@
+[phases.setup]
+nixPkgs = ["nodejs_22", "python3", "python3Packages.pip", "python3Packages.setuptools"]
+
+[phases.install]
+cmds = [
+    "npm install",
+    "pip install --upgrade pip",
+    "pip install -r requirements.txt"
+]
+
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "python setup_railway.py && python frappe_app.py" 

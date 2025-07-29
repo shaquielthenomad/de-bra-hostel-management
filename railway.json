@@ -4,7 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python setup_railway.py && gunicorn --bind 0.0.0.0:$PORT --workers 2 --timeout 120 frappe_app:application",
+    "startCommand": "python setup_railway.py && python frappe_app.py",
     "healthcheckPath": "/api/health",
     "healthcheckTimeout": 30
   }
