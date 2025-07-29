@@ -1,0 +1,20 @@
+# ERPNext and Frappe Framework
+frappe-bench==5.21.0
+erpnext==14.27.0
+
+# Web framework and server
+gunicorn==21.2.0
+flask==2.3.3
+requests==2.31.0
+
+# Database and Redis
+psycopg2-binary==2.9.7
+redis==4.6.0
+
+# Additional utilities
+python-dotenv==1.0.0
+pydantic==2.4.2
+jinja2==3.1.2
+
+# Development and debugging
+python-multipart==0.0.6 

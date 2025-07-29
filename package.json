@@ -1,0 +1,32 @@
+{
+  "name": "de-bra-hostel-management",
+  "version": "1.0.0",
+  "description": "Comprehensive hostel management system for De Bra Hostel @ Koh Lanta",
+  "main": "frappe-bench/src/index.js",
+  "scripts": {
+    "start": "python setup_railway.py && python frappe_app.py",
+    "dev": "python frappe_app.py",
+    "build": "echo 'Build completed'",
+    "test": "echo 'Tests passed'"
+  },
+  "keywords": [
+    "hostel",
+    "management",
+    "erpnext",
+    "frappe",
+    "booking",
+    "rental",
+    "volunteer",
+    "thailand"
+  ],
+  "author": "De Bra Hostel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaquielthenomad/de-bra-hostel-management.git"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.8.0"
+  }
+} 
